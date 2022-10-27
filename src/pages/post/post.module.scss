@@ -1,1 +1,51 @@
-// TODO
+.post {
+
+  text-align: justify;
+
+  h1,
+  h2 {
+    color: var(--heading);
+  }
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    margin: 1rem 0;
+  }
+
+  p,
+  time,
+  span {
+    color: var(--info);
+  }
+
+
+  header {
+    max-width: 720px;
+    margin: 3rem auto;
+  }
+
+  div {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.info {
+  display: flex;
+
+  padding: 1rem 0;
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  span+span {
+    margin-right: 1rem;
+  }
+}

@@ -1,1 +1,48 @@
-// TODO
+.post {
+  &+& {
+    margin-top: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    display: inline-block;
+    color: var(--heading);
+    margin-bottom: 0.5rem;
+  }
+
+  p,
+  span,
+  time {
+    color: var(--info);
+  }
+}
+
+.detalhes {
+  display: flex;
+  gap: 2rem;
+
+  padding-top: 2rem;
+}
+
+.calendario {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.autor {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.carregar {
+  background-color: var(--background);
+  border: none;
+  color: var(--highlight);
+  font-weight: bold;
+  cursor: pointer;
+
+  margin-top: 2rem;
+}
